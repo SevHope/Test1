@@ -1,10 +1,10 @@
 $(document).ready(function () {
-  function toggleHeader() {
+  function hideHeader() {
     $(".btn-warning").on("click", function () {
       $(".header").toggleClass("hide");
     });
   }
-  toggleHeader();
+  hideHeader();
   
   function swipeBlocks() {
     $(".btn-success").on("click", function () {
