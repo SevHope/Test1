@@ -1,13 +1,11 @@
 $(document).ready(function () {
-  //2.1
   function toggleHeader() {
     $(".btn-warning").on("click", function () {
       $(".header").toggleClass("hide");
     });
   }
   toggleHeader();
-
-  //2.2
+  
   function swipeBlocks() {
     $(".btn-success").on("click", function () {
       if ($(".one").hasClass("first-by-order")) {
@@ -27,7 +25,6 @@ $(document).ready(function () {
   }
   swipeBlocks();
 
-  //2.3
   $(window).on("load", function () {
     $(".modal").modal("show");
   });
